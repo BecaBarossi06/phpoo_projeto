@@ -29,3 +29,12 @@ select * from produtos;
 update produtos set imagem = 'imagemldi/donutscaramelo.jpg' where id = 1;
 update produtos set imagem = 'imagemldi/donutschocolate.jpg' where id = 2;
 update produtos set imagem = 'imagemldi/donutsmorango.jpg' where id = 3;
+
+select * from produtos;
+#delete from produtos where id >33;
+update produtos set imagem = concat("../img/",imagem) where id= 33;
+
+select * from usuario;
+
+alter table usuario add perfil varchar(50) default(0);
+update usuario set perfil = 'admin' where email = 'abc@ifsp.edu.br';
