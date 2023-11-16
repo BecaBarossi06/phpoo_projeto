@@ -1,3 +1,5 @@
+https://prod.liveshare.vsengsaas.visualstudio.com/join?D78D397CBDFBE2E83FC54CD3F56435F924D0
+
 CREATE DATABASE donutslupore;
 
 use donutslupore;
