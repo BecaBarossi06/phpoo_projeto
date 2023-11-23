@@ -1,5 +1,3 @@
-https://prod.liveshare.vsengsaas.visualstudio.com/join?D78D397CBDFBE2E83FC54CD3F56435F924D0
-
 CREATE DATABASE donutslupore;
 
 use donutslupore;
@@ -28,9 +26,9 @@ INSERT INTO produtos (nome, imagem, preco) VALUES ('Donuts morango', 'donutsmora
 
 select * from produtos;
 
-update produtos set imagem = 'imagemldi/donutscaramelo.jpg' where id = 1;
-update produtos set imagem = 'imagemldi/donutschocolate.jpg' where id = 2;
-update produtos set imagem = 'imagemldi/donutsmorango.jpg' where id = 3;
+update produtos set imagem = '../imagemldi/donutscaramelo.jpg' where id = 1;
+update produtos set imagem = '../imagemldi/donutschocolate.jpg' where id = 2;
+update produtos set imagem = '../imagemldi/donutsmorango.jpg' where id = 3;
 
 select * from produtos;
 #delete from produtos where id >33;
